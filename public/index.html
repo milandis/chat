@@ -1,0 +1,92 @@
+<DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>2MA App</title>
+		
+	</head>
+
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1> Chat room</h1> 
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input type="text" name="username" id="username" placeholder="Enter username..." required />
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="Health and Beauty">Health and Beauty</option>
+							<option value="HomeDecoration">Home Decoration</option>
+							<option value="modeAndFashion">Mode and Fashion</option>
+							<option value="Nutrition">Nutrition</option>
+							<option value="education">Education</option>
+						</select>
+					</div>
+
+
+
+					<div class="avatarselection">
+						<label>
+							<input class="rb" type="radio" id="avatar-1" name="img"
+								value="http://localhost:3000/Avatar/avatar-1.jpg" checked />
+							<img src="http://localhost:3000/Avatar/avatar-1.jpg" class="Avatar" />
+						</label>
+						<label>
+							<input class="rb" type="radio" id="avatar-2" name="img"
+								value="http://localhost:3000/Avatar/avatar-2.jpg" />
+							<img src="http://localhost:3000/Avatar/avatar-2.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-3" name="img"
+								value="http://localhost:3000/Avatar/avatar-3.jpg" />
+							<img src="http://localhost:3000/Avatar/avatar-3.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-4" name="img"
+							value="http://localhost:3000/Avatar/avatar-4.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-4.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-5" name="img"
+							value="http://localhost:3000/Avatar/avatar-5.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-5.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-6" name="img"
+							value="http://localhost:3000/Avatar/avatar-6.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-6.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-7" name="img"
+							value="http://localhost:3000/Avatar/avatar-7.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-7.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-8" name="img"
+							value="http://localhost:3000/Avatar/avatar-8.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-8.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-9" name="img"
+							value="http://localhost:3000/Avatar/avatar-9.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-9.jpg" class="Avatar" />
+						</label>
+						<label><input class="rb" type="radio" id="avatar-10" name="img"
+							value="http://localhost:3000/Avatar/avatar-10.jpg" />
+						<img src="http://localhost:3000/Avatar/avatar-10.jpg" class="Avatar" />
+						</label>
+					
+					</div>
+
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+
+	</body>
+
+	</html>
